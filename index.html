@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resume of Oksana Palamarchuk">
     <title>Résumé</title>
     <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
+    <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
     <main>
@@ -12,7 +15,9 @@
           <div class="stackable grid">
             <div class="row">
               <div class="three wide center aligned column">
-                <!-- Avatar -->
+                <div class="avatar-wrapper">
+                  <object class="avatar" data="./images/Photo_Oksana Palamarchuk.png" role="img" aria-label="My profile picture"></object>
+                </div>
               </div>
               <div class="thirteen wide column">
                 <div class="stackable grid">
@@ -20,13 +25,13 @@
                     <h1 class="name">Oksana Palamarchuk</h1>
                     <ul  class="contacts">
                         <li><a href="mailto:8444186@gmail.com" rel="author" class="mail">
-                            8444186@gmail.com</a>
+                            &#x1F4E7; 8444186@gmail.com</a>
                         </li>
                         <li><a href="tel:+380638444186" rel="author" class="phone">
-                            +38 063 844 41 86</a>
+                            &#x1F4F1; +38 063 844 41 86</a>
                         </li>
                         <li><a href="skype:oksana-palamarchuk?chat" rel="author" class="skype">
-                            Start Chat</a>
+                            &#x1F4AC; Skype</a>
                         </li>
                     </ul>
                   </div>
@@ -50,22 +55,105 @@
             </div>
             <div class="row">
               <div class="ten wide column">
-                <!-- Experience -->
+                <h3>Experience</h3>
+                <ul class="timeline">
+                  <li>
+                    <p><small>October 2020 - present</small></p>
+                    <p>Fullstack Student @ GoIT Courses, Kyiv</p>
+                  </li>
+                  <li>
+                    <p><small>April 2019 – September 2020</small></p>
+                    <p>Marketing Intern @ Aggreko Deutschland, Berlin</p>
+                    <p><i>- collaborated with various departments within the organisation to successfully launch the product and deliver necessary
+                    marketing materials</i></p>
+                  </li>
+                  <li>
+                    <p><small>February 2017 – March 2019</small></p>
+                    <p>Project Admin @ Weber-Stephen Products (EMEA), Berlin</p>
+                    <p><i>- assisted with project management and process optimisation with the result of achieving project goals</i></p>
+                  </li>
+                  <li>
+                    <p><small>2015 - 2016</small></p>
+                    <p>English Trainer @ SGS Ukraine, Odesa</p>
+                    <p><i>- improved employees English communication skills across the company office in Odesa</i></p>
+                  </li>
+                  <li>
+                    <p><small>2014 – 2015</small></p>
+                    <p>Training Manager @ Starwood Hotels & Resorts, Odesa</p>
+                    <p><i>- worked closely with all the departments to ensure that the employees training needs are met</i></p>
+                  </li>
+                  <li>
+                    <p><small>2008 – 2013</small></p>
+                    <p>English Language Teacher @ Odessa National Maritime Academy, Odesa</p>
+                    <p><i>- implemented the curriculum to successfully prepare students for the work with foreign ship crews</i></p>
+                  </li>
+                </ul>
+                <h3>Education</h3>
+                <ul class="timeline">
+                  <li>
+                    <p><small>2016 - 2020</small></p>
+                    <p>BA “International Business” @ HTW, Berlin</p>
+                  </li>
+                  <li>
+                    <p><small>2003 – 2008</small></p>
+                    <p>MA “English Language and Literature” @ Odessa National University named after I.I. Mechnikov, Odesa</p>
+                  </li>
+                </ul>
               </div>
               <div class="six wide column">
-                <!-- Languages -->
-                <!-- Skills -->
-                <!-- Character -->
-                <!-- Likes -->
-                <!-- Dislikes -->
-                <!-- Wants -->
-                <!-- Education -->
-                <!-- Articles -->
+                <section>
+                 <h3>Languages</h3>
+                 <p class="tags small"><span class="language">&#x1F1FA;&#x1F1E6; UKRAINIAN</span></p>
+                 <p class="tags small"><span class="language">&#x1F1F7;&#x1F1FA; RUSSIAN</span></p>
+                 <p class="tags small"><span class="language">&#x1f1fa;&#x1f1f8; ENGLISH</span></p>
+                 <p class="tags small"><span class="language">&#x1F1E9;&#x1F1EA; GERMAN</span></p>
+                </section>
+                <section>
+                  <h3>Hard Skills</h3>
+                  <p class="tags small">HTML5, CSS3, JavaScript, AJAX, RESTful API, GIT, WebPack</p>
+                </section>
+                <section>
+                  <h3>Soft Skills</h3>
+                  <p class="tags small">TEAMWORK, FLEXIBILITY, PATIENCE, ATTENTION TO DETAILS, TIME MANAGEMENT</p>
+                </section>
+                <section>
+                  <h3>Hobbies</h3>
+                  <p class="tags small">&#x1F6EB; Travelling</p>
+                  <p class="tags small">&#x1F30D; Languages and cultures</p>
+                  <p class="tags small">&#x1F4DA; Lifelong learning</p>
+                  <p class="tags small">&#x1F3CB; Crossfit</p>
+                </section>
+                <section>
+                  <h3>Time left for you to hire me </h3>
+                  <div class="timer" id="timer-1">
+                    <div class="field">
+                      <span class="value" data-value="days">11</span>
+                      <span class="label">Days</span>
+                    </div>
+                  
+                    <div class="field">
+                      <span class="value" data-value="hours">11</span>
+                      <span class="label">Hours</span>
+                    </div>
+                  
+                    <div class="field">
+                      <span class="value" data-value="mins">11</span>
+                      <span class="label">Minutes</span>
+                    </div>
+                  
+                    <div class="field">
+                      <span class="value" data-value="secs">11</span>
+                      <span class="label">Seconds</span>
+                    </div>
+                  </div>
+                </section>
               </div>
             </div>
           </div>
         </div>
       </article>
     </main>
+
+  <script src="./index.js" type="module"></script>
   </body>
 </html>
