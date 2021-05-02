@@ -8,7 +8,7 @@ const refs = {
 class CountdownTimer {
     constructor({ onTick }) {
         this.selector = '#timer-1';
-        this.targetDate = new Date('May 05, 2021');
+        this.targetDate = new Date('Jun 19, 2021');
         this.onTick = onTick;
     }
 
